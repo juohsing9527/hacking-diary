@@ -33721,45 +33721,78 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header {
+    min-height: 103px;
+  }
+
   .u-header .u-image-1 {
     margin-left: calc(((100% - 540px) / 2) + 14px);
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 540px) / 2));
+    margin-top: -54px;
+    margin-right: calc(((100% - 540px) / 2) + 12px);
+  }
+
+  .u-header .u-line-1 {
+    margin-top: 31px;
   }
 }
 @media (max-width: 575px) {
   .u-header {
-    min-height: 197px;
+    min-height: 94px;
   }
 
   .u-header .u-image-1 {
     width: auto;
-    margin-top: 35px;
-    margin-left: calc(((100% - 340px) / 2) + 14px);
+    margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-header .u-menu-1 {
-    margin-top: -55px;
+    margin-top: -56px;
     margin-right: calc(((100% - 340px) / 2) + 26px);
   }
 
   .u-header .u-line-1 {
-    margin-top: 80px;
-    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 0;
   }
 }
-.u-footer {
-  background-image: none;
+.u-footer .u-sheet-1 {
+  min-height: 87px;
 }
 
-.u-footer .u-sheet-1 {
-  min-height: 100px;
+.u-footer .u-social-icons-1 {
+  height: 32px;
+  min-height: 16px;
+  width: 86px;
+  min-width: 54px;
+  white-space: nowrap;
+  margin: 25px auto 30px;
+}
+
+.u-footer .u-icon-1 {
+  height: 100%;
+}
+
+.u-footer .u-icon-2 {
+  height: 100%;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 99px;
+    min-height: 82px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-bottom: 13px;
+  }
+
+  .u-footer .u-icon-1 {
+    color: rgb(85, 172, 238) !important;
+  }
+
+  .u-footer .u-icon-2 {
+    color: rgb(33, 33, 33) !important;
   }
 }
 @media (max-width: 991px) {
@@ -33769,12 +33802,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 57px;
+    min-height: 52px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: 20px;
   }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 36px;
+    min-height: 26px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: 15px;
   }
 }
 
