@@ -33664,7 +33664,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
 .u-header {
   background-image: none;
-  min-height: 214px;
+  min-height: 102px;
 }
 
 .u-header .u-image-1 {
@@ -33677,7 +33677,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -58px calc(((100% - 1140px) / 2) + 16px) 0 auto;
+  margin: -58px calc(((100% - 1140px) / 2)) 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -33696,7 +33696,7 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 3px;
   transform-origin: right center 0px;
   margin-top: 27px;
-  margin-bottom: 60px;
+  margin-bottom: 3px;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
@@ -33706,11 +33706,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -58px;
-    margin-right: calc(((100% - 940px) / 2) + 16px);
-  }
-
-  .u-header .u-line-1 {
-    margin-top: 31px;
+    margin-right: calc(((100% - 940px) / 2));
   }
 }
 @media (max-width: 991px) {
@@ -33721,36 +33717,46 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 720px) / 2) + 16px);
+    margin-right: calc(((100% - 720px) / 2));
   }
 }
 @media (max-width: 767px) {
+  .u-header {
+    min-height: 103px;
+  }
+
   .u-header .u-image-1 {
     margin-left: calc(((100% - 540px) / 2) + 14px);
   }
 
   .u-header .u-menu-1 {
     margin-top: -54px;
-    margin-right: calc(((100% - 540px) / 2) + 16px);
+    margin-right: calc(((100% - 540px) / 2));
   }
 
   .u-header .u-line-1 {
-    margin-top: 32px;
+    margin-top: 31px;
   }
 }
 @media (max-width: 575px) {
+  .u-header {
+    min-height: 94px;
+  }
+
   .u-header .u-image-1 {
-    width: auto;
     margin-left: calc(((100% - 340px) / 2));
+    width: auto;
+    height: auto;
   }
 
   .u-header .u-menu-1 {
     margin-top: -56px;
-    margin-right: calc(((100% - 340px) / 2) + 16px);
+    margin-right: calc(((100% - 340px) / 2));
   }
 
   .u-header .u-line-1 {
-    margin-top: 32px;
+    margin-top: 24px;
+    margin-bottom: 0;
   }
 }
 .u-footer .u-sheet-1 {
