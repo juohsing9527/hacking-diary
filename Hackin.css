@@ -32,7 +32,8 @@
   border-style: solid;
   font-weight: 700;
   text-transform: uppercase;
-  margin: -182px auto 0 761px;
+  font-size: 2.25rem;
+  margin: -198px 137px 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -57,7 +58,6 @@
   .u-section-1 .u-btn-1 {
     margin-top: -174px;
     margin-right: 57px;
-    margin-left: auto;
   }
 }
 
@@ -140,6 +140,5 @@
 
   .u-section-1 .u-btn-1 {
     margin-top: 26px;
-    margin-right: auto;
   }
 }
